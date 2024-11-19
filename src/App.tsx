@@ -1,18 +1,12 @@
-import './App.css'
-import './index.css'
-import Homepage from './pages/homepage'
+import React from 'react';
+import Home from './pages/Home';
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold text-gray-800">Hello, Tailwind!</h1>
+    <>
+      <Home />
+    </>
+  );
+};
 
-      <div className="text-blue-500 pt-5">works</div>
-
-      <Homepage></Homepage>
-    </div>
-  )
-}
-
-export default App
+export default App;
