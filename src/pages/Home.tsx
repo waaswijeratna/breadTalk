@@ -1,8 +1,11 @@
-import CategoryMenu from "../components/CategoryMenu"
+import CategoriesSection from "../components/CategoriesSection"
+import FeaturedProducts from "../components/FeaturedProducts"
+import FeaturesSection from "../components/FeaturesSection"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import HeroSection from "../components/HeroSection"
-import SpecialDishes from "../components/SpecialDishes"
+import NewsletterSection from "../components/NewsLetterSection"
+
 
 
 const Home = () => {
@@ -10,8 +13,10 @@ const Home = () => {
     <div>
       <Header/>
       <HeroSection/>
-      <CategoryMenu/>
-      <SpecialDishes/>
+      <CategoriesSection />
+      <FeaturedProducts />
+      <FeaturesSection />
+      <NewsletterSection/>
       <Footer/>
     </div>
   )
