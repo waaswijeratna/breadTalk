@@ -6,10 +6,10 @@ const Header = () => {
     <header className="bg-white shadow-md px-8 py-4 flex justify-between items-center border-b border-gray-300">
       <img src={logo} alt="BreadTalk Logo" className="w-32" />
       <nav className="flex gap-8">
-        <a href="#home" className="text-gray-600 hover:text-black">Home</a>
-        <a href="#about" className="text-gray-600 hover:text-black">About Us</a>
-        <a href="#blog" className="text-gray-600 hover:text-black">Blog</a>
-        <a href="#contact" className="text-gray-600 hover:text-black">Contact</a>
+        <a href="#home" className="text-gray-600 hover:text-[#f37a1f]">Home</a>
+        <a href="#about" className="text-gray-600 hover:text-[#f37a1f]">About Us</a>
+        <a href="#blog" className="text-gray-600 hover:text-[#f37a1f]">Blog</a>
+        <a href="#contact" className="text-gray-600 hover:text-[#f37a1f]">Contact</a>
       </nav>
       <button className="flex items-center gap-2 bg-[#f37a1f] text-white px-4 py-2 rounded-lg hover:bg-[#d6691a]">
         <ShoppingCart size={18} />
