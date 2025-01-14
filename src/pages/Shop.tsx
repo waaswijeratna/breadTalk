@@ -136,7 +136,7 @@ const Shop = () => {
             <div
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`text-xl px-4 py-2 mb-8 mx-2 font-medium cursor-pointer uppercase ${
+              className={`text-xl px-4 py-4 my-10 mx-2 font-medium cursor-pointer uppercase ${
                 selectedCategory === category
                   ? " text-orange-500"
                   : " text-gray-600"
